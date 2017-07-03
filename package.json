@@ -1,0 +1,16 @@
+{
+  "name": "night",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dados.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightmare": "^2.10.0",
+    "vo": "^4.0.2"
+  }
+}
