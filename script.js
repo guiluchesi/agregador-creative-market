@@ -4,7 +4,7 @@ const nightmare = Nightmare({ show: true });
 const dados = require('./dados.js');
 
 const adicionaNoBoard = () => {
-    var boardName = "Testes";
+    var boardName = dados.boardDeDestino;
     var boards = document.querySelectorAll('ul div[role="button"]');
     var getButton = false;
 
