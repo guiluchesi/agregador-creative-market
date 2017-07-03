@@ -16,14 +16,6 @@ const adicionaNoBoard = () => {
     });
 };
 
-const getProdutoNovo = produto => {
-  return nightmare => nightmare
-    .goto(`https://br.pinterest.com/pin/create/button/?media=${produto.image}&description=${produto.description}&url=${produto.url}?u=caiocall`)
-    .wait('ul div[role="button"]')
-    .evaluate(adicionaNoBoard)
-    .then(() => console.log('Castor'));
-};
-
 const creativeMarket = function * () {
   let arrayDeProdutos;
 
